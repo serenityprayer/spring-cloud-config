@@ -1,0 +1,19 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          # 配置git仓库的地址
+          uri: https://github.com/serenityprayer/spring-cloud-config
+          # git仓库地址下的相对地址，可以配置多个，用,分割。
+          search-paths: config-repo/{application}
+    bus:
+      trace.enabled: true
+
+management:
+  security:
+    enabled: false
