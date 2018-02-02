@@ -7,6 +7,8 @@ spring:
       label: master #对应Git上不同的分支，默认master
       name: config-client  #默认应用的名称${spring.application.name:application}
       uri: http://localhost:8040/
+      username: user
+      password: password
 
 server:
   port: 9030
