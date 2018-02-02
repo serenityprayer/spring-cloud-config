@@ -1,3 +1,4 @@
 info:
   profile: default
   from: git-config-repo
+datasource.username: {cipher}46b160a6ad2cf2ee9344a2fc5b8ee7373f52193e32fa9cd0b73b5581e0f50c53
