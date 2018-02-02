@@ -1,3 +1,6 @@
 info:
   profile: default
   from: git-config-repo
+
+datasource:
+  password: root123
