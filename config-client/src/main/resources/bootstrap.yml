@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: config-client
   cloud:
     config:
       profile: prd  #对应不同环境，默认default
@@ -8,8 +6,8 @@ spring:
       name: config-client  #默认应用的名称${spring.application.name:application}
       uri: http://localhost:8040/
       username: user
-      password: password
+      # password: {cipher}b591e6285a89ada95f4f1ae581c9ad5d3cab5036232d1a31d9316dcdc1f42a07
 
-server:
-  port: 9030
+encrypt:
+  key: helloAesKey
 

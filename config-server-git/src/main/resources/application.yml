@@ -19,12 +19,12 @@ security:
     name: user
     password: password
 
-encrypt:
-  key-store:
-    location: classpath:/keystore.jks
-    password: storepwd
-    alias: keystore
-    secret: keypwd
+#encrypt:
+#  key-store:
+#    location: classpath:/keystore.jks
+#    password: storepwd
+#    alias: keystore
+#    secret: keypwd
 
 management:
   security:
