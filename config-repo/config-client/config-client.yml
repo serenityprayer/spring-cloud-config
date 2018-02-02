@@ -3,4 +3,4 @@ info:
   from: git-config-repo
 
 datasource:
-  password: root123
+  password: {cipher}AIAGanYUUkmLt//Y3g9ZUmxwUPXAmWILoUPpZo5bm1PEfEytr+dQ10HTH0//PGuVu+ZnxEUNfaPN/na7XGIrVTnmMjX1zaPiZxs32oR5zoRrYEnAMFveisIHWOSSZ1bmAhAuvUK/QwiTXgGrwmGKhw9aj/ltaoglWdRO+p9UcE5admNUV/Iiqer8HlyN405aj1WALEqj+PvDN3OsLPFVNitb
