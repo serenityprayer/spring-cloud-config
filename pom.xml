@@ -14,6 +14,7 @@
 	<modules>
 		<module>config-server-git</module>
 		<module>config-client</module>
+		<module>config-server-db</module>
 	</modules>
 
 </project>
