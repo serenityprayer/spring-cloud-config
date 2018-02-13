@@ -12,8 +12,8 @@ VALUES
 	(2, 'config-client', 'master', 'dev', '1');
 INSERT INTO `config_properties` (`properties_key`, `content`, `properties_name`)
 VALUES
-	(1, '{\"key\": \"value\", \"key2\": \"value2\"}', 'test'),
-	(2, '{\"key3\": \"value3\"}', 'test2');
+	(1, '{\"key\": \"value\", \"info.from\": \"config-server-db\"}', 'test'),
+	(2, '{\"key2\": \"value2\"}', 'test2');
 INSERT INTO `config_properties_repository`
 VALUES
 	(1, 1),
